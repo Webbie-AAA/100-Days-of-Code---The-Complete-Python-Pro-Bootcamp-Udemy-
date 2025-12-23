@@ -30,9 +30,6 @@ def display_cards(enter_dict: dict):
             print(card[row], end=" ")
         print()
 
-# test_dict = {"name": "name", "hand": ["7S", "KC", "8H"]}
-# display_cards(test_dict)
-
 def count_total_points(enter_dict: dict):
     aces = ["AC", "AD", "AH", "AS"]
     suits_points = {"A": 11, "2": 2, "3": 3, "4": 4, "5": 5, "6": 6, "7": 7, "8": 8, "9": 9, "10": 10, "J": 10, "Q": 10, "K": 10}
