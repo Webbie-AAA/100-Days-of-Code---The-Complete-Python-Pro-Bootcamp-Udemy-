@@ -24,6 +24,8 @@ def game():
 game_play = True
 while game_play:
     CHOSEN_NUMBER = random.randint(1, 100)
+    print("Welcome to the Number Guessing Game!")
+    print("I'm thinking of a number between 1 and 100.")
     level = input("\nChoose a difficulty. Type 'easy' or 'hard':\t").lower().strip()
 
     if level == "easy":
